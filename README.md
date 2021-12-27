@@ -6,7 +6,7 @@ This project is a simple number guessing game
 
 A user is given 3 attempts to correctly guess the number between 1 and 20
 
-## Libraries, modules, and tools
+## Modules and Tools
 
 This project uses the Random module and Pylint.
 
