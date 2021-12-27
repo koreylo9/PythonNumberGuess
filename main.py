@@ -1,10 +1,11 @@
 import random
 
-num = random.randint(1, 20)
-guess = None
-user_attempts = 3
+def main():
+  num = random.randint(1, 20)
+  guess = None
+  user_attempts = 3
 
-while guess != num and user_attempts != 0:
+  while guess != num and user_attempts != 0:
     guess = input("Guess a number between 1 and 20: (You have %s attempts left!) : " % user_attempts)
     guess = int(guess)
 
@@ -17,4 +18,7 @@ while guess != num and user_attempts != 0:
         if user_attempts == 0:
           print("Out of attempts. Game Over!")
           break
+    
 
+if __name__ == "__main__":
+    main()
